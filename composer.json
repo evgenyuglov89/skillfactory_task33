@@ -1,0 +1,20 @@
+{
+    "name": "sf/php_mvc",
+    "description": "PHP-MVC_Project",
+    "type": "project",
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "evgeniyuglov"
+        }
+    ],
+    "minimum-stability": "dev"
+}
